@@ -4,6 +4,10 @@
 npm install tx.css
 ```
 
+```css
+@import './node_modules/tx.css/tx';
+```
+
 ### `text-align`
 
 ```css
