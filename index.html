@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US" class="tx-os scheme-base">
+<meta charset="utf-8">
+<title>Functional CSS text module: tx.css</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Opensource CSS text utility classes">
+<link rel="stylesheet" href="tx.css">
+<link rel="stylesheet" href="https://unpkg.com/spacing@0.1.0">
+<link rel="stylesheet" href="https://unpkg.com/flexboxes@0.6.0">
+
+<style>
+.scheme-base { background: Purple; color: LightSalmon; }
+.scheme-show { background: LightSalmon; color: Black; }
+.scheme-line { background: DarkSalmon; color: Black; }
+.inline-block { display: inline-block }
+
+* { box-sizing: border-box }
+:focus { outline-color: currentColor }
+body { margin: 0 auto }
+
+ul,
+li,
+figure {
+  padding: 0;
+  list-style: none;
+  margin: 0 auto 1.5rem;
+}
+
+b {
+  padding: .25em;
+  display: inline-block;
+  background: Purple;
+  color: LightSalmon;
+}
+
+code {
+  font: inherit;
+  font-weight: bold;
+}
+</style>
+
+<header class="p3 mb0 scheme-base">
+  <h1><a class="scheme-base" href="https://github.com/ryanve/tx.css">tx.css</a></h1>
+</header>
+
+<figure class="p3 mb0 scheme-show" id="vertical-align">
+  <h1><code class="tx-face">vertical-align</code></h1>
+  <ul>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-baseline">baseline</b>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-ascent">text-top</b>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-descent">text-bottom</b>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-top">top</b>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-bottom">bottom</b>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-sup">super</b>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-sub">sub</b>
+    <li class="p1 scheme-line">Align <b class="tx-face tx-middle">middle</b>
+  </ul>
+</figure>
+
+<figure class="p3 mb0 scheme-base" id="text-align">
+  <h1><code class="tx-face">text-align</code></h1>
+  <ul>
+    <li class="p1 scheme-show tx-left">Align left.
+    <li class="p1 scheme-show tx-start">Align start.
+    <li class="p1 scheme-show tx-center">Align center.
+    <li class="p1 scheme-show tx-right">Align right.
+    <li class="p1 scheme-show tx-end">Align end.
+  </ul>
+</figure>
+
+<figure class="p3 mb0 scheme-show" id="font">
+  <h1><code class="tx-face">font</code></h1>
+  <ul>
+    <li class="inline-block mr1 mr0-last p1 scheme-line tx-face">inherit
+    <li class="inline-block mr1 mr0-last p1 scheme-line tx-sans">sans
+    <li class="inline-block mr1 mr0-last p1 scheme-line tx-mono">monospace
+    <li class="inline-block mr1 mr0-last p1 scheme-line tx-os free-right">system-ui
+  </ul>
+</figure>
+
+<footer class="p3 mb0 scheme-base">
+  <a class="scheme-base" href="https://github.com/ryanve/tx.css">Read documentation on Github</a>
+</footer>
