@@ -1,0 +1,24 @@
+{
+  "name": "tx.css",
+  "version": "0.0.0",
+  "description": "Functional CSS text classes",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "tx.css",
+  "scripts": {},
+  "homepage": "https://github.com/ryanve/tx.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/tx.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/tx.css/issues"
+  },
+  "keywords": [
+    "functional-css",
+    "typography",
+    "alignment",
+    "text",
+    "css"
+  ]
+}
