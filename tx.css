@@ -16,4 +16,4 @@
 .tx-face { font: inherit }
 .tx-sans { font-family: sans-serif }
 .tx-mono { font-family: monospace }
-.tx-os { font-family: sans-serif; font-family: system-ui }
+.tx-os { font-family: system-ui, sans-serif }
