@@ -1,5 +1,9 @@
 # tx.css
 
+```
+npm install tx.css
+```
+
 ### `text-align`
 
 ```css
